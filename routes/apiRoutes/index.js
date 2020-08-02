@@ -32,7 +32,7 @@ router.post('/notes', (req, res)=>{
         }
 });
 
-router.post('/notes/:id', (req, res)=>{
+router.post('/notes/:id', (req, res)=>{ // route to edit the note, but it looks like the front end does not have this functionality
 
     let arNotes = notes;
 
